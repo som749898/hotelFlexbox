@@ -1,0 +1,278 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html,body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+.primary {
+  color: #f7c08a;
+}
+
+.bg-primary {
+  background-color: #f7c08a;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+.container {
+  min-height: 70px;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+  align-self: center;
+  padding: 0 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.navbar li {
+  align-self: center;
+  list-style: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.navbar li a {
+  color: #fff;
+  padding: 23px;
+}
+
+.navbar li a:hover {
+  background-color: #444;
+  color: #f7c08a;
+}
+
+.main {
+  height: 600px;
+  text-align: center;
+  background-image: url('./img/showcase.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main h1 {
+  font-size: 60px;
+  padding: 20px;
+  padding-top: 180px;
+  color: #fff;
+}
+
+.main p {
+  margin-top: 20px;
+  padding: 20px;
+  margin: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.main button {
+  padding: 13px 20px;
+  color: #fff;
+  background-color: #333;
+  font-size: 18px;
+  /* border: none; */
+  cursor: pointer;
+}
+
+.main button a {
+  color: #fff;
+}
+
+.gallary {
+  display: flex;
+  flex: 1;
+}
+
+.gallary img {
+  width: 50vw;
+}
+
+.detail {
+   text-align: center;
+   background-color: #333;
+   color: #fff;
+   padding: 50px 30px;
+}
+
+.detail h3 {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.detail button {
+  padding: 13px 20px;
+  font-size: 18px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.detail button a {
+  color: #333;
+}
+
+#features {
+  display: flex;
+  text-align: center;
+}
+
+.box {
+  padding: 50px;
+}
+
+.box h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #444;
+  font-size: 16px;
+  color: #f4f4f4;
+}
+
+.about-hotel {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 30px 20px;
+}
+
+.about-hotel img {
+  max-width: 50%;
+  border-radius: 50%;
+  margin: 50px;
+  height: 200px;
+}
+
+.info {
+  min-width: 40vw;
+}
+
+.info h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.info p {
+  margin: 10px 0px;
+}
+
+.showcase {
+  height: 600px;
+  background: url(../img/test-bg.jpg) no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+.showcase h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+.card {
+  display: flex;
+  background-color: #f7c08a;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+
+.card img {
+  align-self: center;
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  height: 100px;
+}
+
+.container-1 {
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px;
+}
+
+.container-1 h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.container-1 p {
+  margin: 10px 0px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.container-1 input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.container-1 textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.container-1 button {
+  padding: 13px 20px;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  background-color: #333;
+}
+
+.contact-info {
+  padding: 20px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.contact-info .container {
+  flex: 1;
+}
+
+.box {
+  width: 33.3%;
+}
+
+.contact-info .box {
+  padding: 50px;
+}
+
+.contact-info .box h3 {
+  padding-bottom: 20px;
+}
+
+.contact-info .box p {
+  margin: 10px;
+}
